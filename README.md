@@ -14,7 +14,9 @@ Here are the things you need:
 ## Preparing the files
 
 First let's get the files! Click on the links or follow the instructions to get the files.
+
 ● [Scrcpy](https://github.com/Genymobile/scrcpy)
+
 ● The .bat file
 To get the .bat file to run scrcpy, first you will need to go to the very top and click on the green Code button. A menu will appear. Click Download ZIP and we will extract it later.
 
