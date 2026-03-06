@@ -55,5 +55,7 @@ Windows 7/8/8.1/10/11
 (Also don't do this on scrcpy cause I wrote this before I uploaded the files.)
 
 5.Now after extracting you can find a file called Start_DeX.bat in the scrcpy folder. Right click and click Edit in Notepad.
+
 6. A Notepad window will appear. Now right click on your desktop and click Display Settings.
+
 7. Scroll down until you find Display resolution. The number under it will be your Display size for example let's assume your Display is 1366 x 768
