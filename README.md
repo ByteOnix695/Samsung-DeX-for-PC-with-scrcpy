@@ -54,8 +54,20 @@ Windows 7/8/8.1/10/11
 ![12115](https://github.com/user-attachments/assets/1c000282-4433-493e-96d3-b77c34fe35b5)
 (Also don't do this on scrcpy cause I wrote this before I uploaded the files.)
 
-5.Now after extracting you can find a file called Start_DeX.bat in the scrcpy folder. Right click and click Edit in Notepad.
+5.Now after extracting you can find a file called Start_DeX.bat in the scrcpy folder or the Start_DeX.command or Start_DeX.py. Now, continue the steps with your OS.
 
-6. A Notepad window will appear. Now right click on your desktop and click Display Settings.
+● Windows
+6.  Right click on the Start_DeX.bat and select Open in Notepad. A Notepad window will appear. Now right click on your desktop and click Display Settings.
 
 7. Scroll down until you find Display resolution. The number under it will be your Display size for example let's assume your Display is 1366 x 768
+
+8. Open Notepad and find the line with --new-display=[YOUR DISPLAY RES]/160 and change the [YOUR DISPLAY RES] part into the numbers you found. For example: --new-display=1366x768/160
+9. Click File on the top bar then click Save
+
+●macOS
+6. Right click the Start_DeX and Hover Open with and select TextEdit. If TextEdit isn't listed, click on Other instead and click on the enable dropdown and click All Applications and find TextEdit and click it.
+
+7. Now click the Apple Menu and click System Settings. Go to Displays. ​You will see a list of icons like "Larger Text" or "More Space." Hover your mouse over your current selection, and a pop-up will show the exact pixel numbers. For example, let's assume it shows 1440 x 900.
+8. Go back to TextEdit and find the line with --new-display=[YOUR DISPLAY RES]/160 and change the [YOUR DISPLAY RES] part into the numbers you found. For example: --new-display=1440x900/160 and on the top menu click File and click Save.
+
+● Linux
