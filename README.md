@@ -8,8 +8,11 @@ Hi there! Today we are going to show you how to run Samsung DeX on DeX supported
 ## Getting Started
 
 Here are the things you need:
+
 ● A Samsung DeX supported phone
+
 ● A Laptop or a Computer with a USB-A Port (USB 3.0 works better but if your Laptop or Computrr doesn't have it. Then what Computer is it? BTW no offense intended for MacBooks hehe just get a type c hub idk.)
+
 ● A Usb-A to Type-C (or whatever your port is) cable
 ## Preparing the files
 
