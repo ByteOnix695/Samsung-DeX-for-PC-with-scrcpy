@@ -92,7 +92,7 @@ Now change the [YOUR DISPLAY RES] part into the numbers you found. For example: 
 
 10. For this part is really important because it won't open unless you open terminal, type
 ```bash
-chmod+x
+chmod +x
 ```
 11. Now drag the .command file into the terminal. Then press Enter or Return
 
@@ -126,6 +126,8 @@ except FileNotFoundError:
 except Exception as e:
     print(f"An error occurred: {e}")
 ```
+(Don't remove the quotes at the res part or the py will crash ;( away man
+
 7. Open a new terminal and type
 
 ```bash
@@ -137,3 +139,30 @@ xrandr | grep '*'
 ```
 [YOUR DISPLAY RES]
 ```
+and replace with those numbers you found.
+
+10. You can now exit by pressing Ctrl+O Return and Ctrl+X
+
+## Executing the file
+
+To execute the file follow these steps in order to Start DeX
+
+● Windows
+
+1. Make sure Your phone is plugged in and make sure there aren't any loosen stuff.
+2. Double click the .bat file and a new window will pop up on your phone. Click OK. Congratulations! You now have your own Samsung DeX
+3. Press Alt+F to enter FullScreen!
+
+● macOS 
+
+1. Make sure Your phone and your type c hub is plugged into your type c port and make sure there aren't any loosen stuff.
+2. Double click the .command file and a new window will pop up on your phone. Click OK. Congratulations! You now have your own Samsung DeX.
+3. Press Command+F to enter fullscreen
+
+● Linux
+
+1. Make sure Your phone is plugged in and make sure there aren't any loosen stuff.
+2. Single click the .py file and a new window will pop up on your phone. Click OK. Congratulations! You now have your own Samsung DeX. Or just type python3 Start_DeX.py in your terminal.
+3. Press Alt+F to enter FullScreen
+
+## Extra: Make a app or a direct command to run!
