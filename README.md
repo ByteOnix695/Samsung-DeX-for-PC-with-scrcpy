@@ -54,8 +54,8 @@ Windows 7/8/8.1/10/11
 2. First extract the scrcpy file.
 3. Then move the code zip into the insides of scrcpy where you can find lots of confusing .bats .exe files and stuff.
 4. Now extract the zip and make sure to tell the OS to not extract in a subfolder. (On Windows, this is usually done by removing the folder name and the \ after the main structure. For example:
-![12115](https://github.com/user-attachments/assets/1c000282-4433-493e-96d3-b77c34fe35b5)
-(Also don't do this on scrcpy cause I wrote this before I uploaded the files.)
+
+<img width="632" height="466" alt="Screenshot 2026-03-07 173332" src="https://github.com/user-attachments/assets/a2ecab29-6861-4f82-a0b3-f48d07b78f8a" />
 
 5.Now after extracting you can find a file called Start_DeX.bat in the scrcpy folder or the Start_DeX.command or Start_DeX.py. Now, continue the steps with your OS.
 
