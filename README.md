@@ -59,7 +59,7 @@ Windows 7/8/8.1/10/11
 ● Windows
 
 6.  Right click on the Start_DeX.bat and select Open in Notepad. A Notepad window will appear. The window should look like this.
-7. '''@cmd && scrcpy --new-display=[YOUR DISPLAY RES]'''
+`@cmd && scrcpy --new-display=[YOUR DISPLAY RES]`
 Now right click on your desktop and click Display Settings.
 
 8. Scroll down until you find Display resolution. The number under it will be your Display size for example let's assume your Display is 1366 x 768
