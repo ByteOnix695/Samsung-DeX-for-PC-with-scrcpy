@@ -58,12 +58,14 @@ Windows 7/8/8.1/10/11
 
 ● Windows
 
-6.  Right click on the Start_DeX.bat and select Open in Notepad. A Notepad window will appear. Now right click on your desktop and click Display Settings.
+6.  Right click on the Start_DeX.bat and select Open in Notepad. A Notepad window will appear. The window should look like this.
+7. '''@cmd && scrcpy --new-display=[YOUR DISPLAY RES]'''
+Now right click on your desktop and click Display Settings.
 
-7. Scroll down until you find Display resolution. The number under it will be your Display size for example let's assume your Display is 1366 x 768
+8. Scroll down until you find Display resolution. The number under it will be your Display size for example let's assume your Display is 1366 x 768
 
-8. Open Notepad and find the line with --new-display=[YOUR DISPLAY RES]/160 and change the [YOUR DISPLAY RES] part into the numbers you found. For example: --new-display=1366x768/160
-9. Click File on the top bar then click Save
+9. Open Notepad and find the line with --new-display=[YOUR DISPLAY RES]/160 and change the [YOUR DISPLAY RES] part into the numbers you found. For example: --new-display=1366x768/160
+10. Click File on the top bar then click Save
 
 ●macOS
 
