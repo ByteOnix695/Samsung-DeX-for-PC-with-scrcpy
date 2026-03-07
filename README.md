@@ -1,4 +1,7 @@
 # Samsung-DeX-for-PC-with-scrcpy
+
+![Uploading 19701.jpg…]()
+
 Get Samsung DeX on your PC bypassing the One UI 6.1 and earlier restriction and stuff!
 
 
