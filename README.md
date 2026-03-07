@@ -59,21 +59,81 @@ Windows 7/8/8.1/10/11
 ● Windows
 
 6.  Right click on the Start_DeX.bat and select Open in Notepad. A Notepad window will appear. The window should look like this.
-````batch
+```batch
 @cmd && scrcpy --new-display=[YOUR DISPLAY RES]/160 --mouse=uhid --keyboard=uhid
-````
+```
 Now right click on your desktop and click Display Settings.
 
 8. Scroll down until you find Display resolution. The number under it will be your Display size for example let's assume your Display is 1366 x 768
 
-9. Open Notepad and find the line with --new-display=[YOUR DISPLAY RES]/160 and change the [YOUR DISPLAY RES] part into the numbers you found. For example: --new-display=1366x768/160
-10. Click File on the top bar then click Save
+9. Open Notepad and find the line that says
+```batch
+--new-display=[YOUR DISPLAY RES]/160
+```
+now change the [YOUR DISPLAY RES] part into the numbers you found. For example: --new-display=1366x768/160
+12. Click File on the top bar then click Save
 
 ●macOS
 
-6. Right click the Start_DeX and Hover Open with and select TextEdit. If TextEdit isn't listed, click on Other instead and click on the enable dropdown and click All Applications and find TextEdit and click it.
+6. Right click the Start_DeX.command and Hover Open with and select TextEdit. If TextEdit isn't listed, click on Other instead and click on the enable dropdown and click All Applications and find TextEdit and click it.
 
-7. Now click the Apple Menu and click System Settings. Go to Displays. ​You will see a list of icons like "Larger Text" or "More Space." Hover your mouse over your current selection, and a pop-up will show the exact pixel numbers. For example, let's assume it shows 1440 x 900.
-8. Go back to TextEdit and find the line with --new-display=[YOUR DISPLAY RES]/160 and change the [YOUR DISPLAY RES] part into the numbers you found. For example: --new-display=1440x900/160 and on the top menu click File and click Save.
+TextEdit will look like this:
+```bash
+#!/bin/zsh
+scrcpy --new-display=[YOUR DISPLAY RES]/160 --mouse=uhid --keyboard=uhid
+```
+
+8. Now click the Apple Menu and click System Settings. Go to Displays. ​You will see a list of icons like "Larger Text" or "More Space." Hover your mouse over your current selection, and a pop-up will show the exact pixel numbers. For example, let's assume it shows 1440 x 900.
+9. Go back to TextEdit and find the line that says
+```bash
+--new-display=[YOUR DISPLAY RES]/160
+```
+Now change the [YOUR DISPLAY RES] part into the numbers you found. For example: --new-display=1440x900/160 and on the top menu click File and click Save.
+
+10. For this part is really important because it won't open unless you open terminal, type
+```bash
+chmod+x
+```
+11. Now drag the .command file into the terminal. Then press Enter or Return
 
 ● Linux
+
+6. Open your terminal in the scrcpy location and type:
+```bash
+nano Start_DeX.py
+```
+Now nano will open and this will appear
+```python
+import subprocess
+import platform
+
+resolution = "[YOUR DISPLAY RES]"
+
+cmd = [
+    "scrcpy", 
+    f"--new-display={resolution}/160", 
+    "--mouse=uhid", 
+    "--keyboard=uhid"
+]
+
+print(f"Checking system... Running on {platform.system()}")
+print(f"Launching DeX at {resolution}. Please wait...")
+
+try:
+    subprocess.run(cmd, check=True)
+except FileNotFoundError:
+    print("ERROR: scrcpy not found! Make sure it is in the same folder.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+```
+7. Open a new terminal and type
+
+```bash
+xrandr | grep '*'
+```
+8. Now numbers will appear. This is your Display Resolution. Take notes of those numbers and go back to nano.
+9. Now press Ctrl+W (Where is) and type
+
+```
+[YOUR DISPLAY RES]
+```
