@@ -65,6 +65,9 @@ Windows 7/8/8.1/10/11
 ```batch
 @cmd && scrcpy --new-display=[YOUR DISPLAY RES]/160 --mouse=uhid --keyboard=uhid
 ```
+
+<img width="1013" height="516" alt="Screenshot 2026-03-07 181544" src="https://github.com/user-attachments/assets/34566a78-4c5e-4b1a-9ca2-b0966d505efa" />
+
 Now right click on your desktop and click Display Settings.
 
 8. Scroll down until you find Display resolution. The number under it will be your Display size for example let's assume your Display is 1366 x 768
