@@ -72,6 +72,8 @@ Now right click on your desktop and click Display Settings.
 
 8. Scroll down until you find Display resolution. The number under it will be your Display size for example let's assume your Display is 1366 x 768
 
+<img width="446" height="107" alt="Screenshot 2026-03-07 182208" src="https://github.com/user-attachments/assets/912ab039-6ab1-4383-b1ff-a111561dbd32" />
+
 9. Open Notepad and find the line that says
 ```batch
 --new-display=[YOUR DISPLAY RES]/160
@@ -85,6 +87,7 @@ now change the [YOUR DISPLAY RES] part into the numbers you found. For example: 
 
 TextEdit will look like this:
 ```bash
+
 #!/bin/zsh
 scrcpy --new-display=[YOUR DISPLAY RES]/160 --mouse=uhid --keyboard=uhid
 ```
