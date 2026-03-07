@@ -24,6 +24,8 @@ First let's get the files! Click on the links or follow the instructions to get 
 ● The .bat file
 To get the .bat file to run scrcpy, first you will need to go to the very top and click on the green Code button. A menu will appear. Click Download ZIP and we will extract it later.
 
+<img width="497" height="386" alt="Screenshot 2026-03-07 172249" src="https://github.com/user-attachments/assets/0d4c800a-d6a9-4c63-b98f-9c213a7312bb" />
+
 ## Setting up the devices
 ● DeX supported phone
 1. Open the control center and find DeX or Wireless DeX to make sure your device supports Samsung Dex
