@@ -162,6 +162,10 @@ To execute the file follow these steps in order to Start DeX
 2. Double click the .bat file and a new window will pop up on your phone. Click OK. Congratulations! You now have your own Samsung DeX
 3. Press Alt+F to enter FullScreen!
 
+<img width="1365" height="767" alt="Screenshot 2026-03-07 183812" src="https://github.com/user-attachments/assets/feaabf51-561b-46f2-86cc-19974462bf00" />
+
+
+
 ● macOS 
 
 1. Make sure Your phone and your type c hub is plugged into your type c port and make sure there aren't any loosen stuff.
