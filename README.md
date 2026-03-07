@@ -1,6 +1,7 @@
 # Samsung-DeX-for-PC-with-scrcpy
 Get Samsung DeX on your PC bypassing the One UI 6.1 and earlier restriction and stuff!
 
+
 Hi there! Today we are going to show you how to run Samsung DeX on DeX supported devices with your Laptop or a PC!
 
 (BTW Github please don't sue me for copying other projects or really it's just other project but I give credits by giving links to their repository!)
@@ -165,4 +166,8 @@ To execute the file follow these steps in order to Start DeX
 2. Single click the .py file and a new window will pop up on your phone. Click OK. Congratulations! You now have your own Samsung DeX. Or just type python3 Start_DeX.py in your terminal.
 3. Press Alt+F to enter FullScreen
 
-## Extra: Make a app or a direct command to run!
+Credits to scrcpy for this project
+
+Copyright HlwanStudios Inc. 2026. HlwanStudios is not affiliated with any or other way by Samsung. Samsung is a trademark of Samsung Electronics Co.Ltd. Samsung DeX and other simlar designs are trademarks of Samsung Electronics Co.Ltd
+
+Youtube video for tut coming soon!
