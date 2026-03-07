@@ -60,7 +60,7 @@ Windows 7/8/8.1/10/11
 
 6.  Right click on the Start_DeX.bat and select Open in Notepad. A Notepad window will appear. The window should look like this.
 
-```@cmd && scrcpy --new-display=[YOUR DISPLAY RES]```
+````@cmd && scrcpy --new-display=[YOUR DISPLAY RES]/160 --mouse=uhid --keyboard=uhid````
 
 Now right click on your desktop and click Display Settings.
 
